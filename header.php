@@ -27,18 +27,13 @@
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'twentyseventeen' ); ?></a>
 
-	<header id="masthead" class="site-header" role="banner">
-
-		<?php get_template_part( 'template-parts/header/header', 'image' ); ?>
-
-		<?php if ( has_nav_menu( 'top' ) ) : ?>
-			<div class="navigation-top">
-				<div class="wrap">
-					<?php get_template_part( 'template-parts/navigation/navigation', 'top' ); ?>
-				</div><!-- .wrap -->
-			</div><!-- .navigation-top -->
-		<?php endif; ?>
-
+	<header class="flex h-screen justify-center items-center bg-cyan-50">
+	<div class="rounded-lg p-10 shadow-md bg-white text-center">
+		<h1 class="text-6xl font-bold text-cyan-500 uppercase">
+			<?php bloginfo('name')?>
+		</h1>
+		<p class="text-4xl"><?php bloginfo('description')?></p>
+	</div>
 	</header><!-- #masthead -->
 
 	<?php
