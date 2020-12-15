@@ -1,10 +1,12 @@
-# Tailwind CSS v2.0 | Wordpress Setup and Install
+# Tailwind CSS v2.0 | Wordpress Theme Setup & Install
 
 Source Code for Setup and Install Tailwindcss v2.0 on your Wordpress Theme from <a href="https://www.youtube.com/channel/UCSyosm-WcUPT4LnUIIdqSCw" title="Subscribe to CodeWithChu Youtube Channel" target="_blank">CodeWithChu</a> YouTube Channel.
 
 This is using the default twentyseventeen wordpress theme as the base. Adding Laravel Mix as a webpack wrapper. Installing Tailwind Css v2.0 using the PostCSS 7 Compatibility build with Sass and BrowserSync
 
 ## Install
+
+clone repo into the wordpress themes directory `/wp-content/themes/`
 
 ```sh
 npm install
